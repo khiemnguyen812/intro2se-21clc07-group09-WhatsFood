@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Buyer.BuyerHomeActivity"
+    android:background="@color/background_color">
+
+    <TextView
+        android:id="@+id/order_list_logo"
+        android:layout_width="208dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:text="WhatsFood"
+        android:textColor="@color/red"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="410dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="84dp"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:queryHint="Search"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/list_view_buyer_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:clickable="true"
+        android:cacheColorHint="#00000000"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:scrollingCache="false"
+        android:smoothScrollbar="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollbars="none"
+        android:paddingHorizontal="20dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="581dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="0dp"
+        android:cacheColorHint="#00000000"
+        android:clickable="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingHorizontal="20dp"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+        android:smoothScrollbar="true" />
+</RelativeLayout>

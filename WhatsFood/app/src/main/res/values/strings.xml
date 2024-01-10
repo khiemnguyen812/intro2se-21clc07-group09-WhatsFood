@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WhatsFood</string>
+    <string name="error">Something went wrong! Please try again later!</string>
+    <string name="title_activity_select_account_type">SelectAccountTypeActivity</string>
+    <string name="empty_field">Field cannot be empty</string>
+    <string name="buyer_register">Register successfully</string>
+    <string name="seller_register">Register request has been send. Please wait for the reply email to be sent to your email address.</string>
+    <string name="missing_information">Missing information</string>
+    <string name="invalid_field">Invalid information</string>
+    <string name="register_fail">Register failed. Please try again later.</string>
+    <string name="edit_profile_success">Changes have been applied!</string>
+    <string name="password_not_match">Confirm password not match</string>
+    <string name="ERROR_EMAIL_ALREADY_IN_USE">Your email is already in use. Please use another email.</string>
+    <string name="invalid_email">Invalid Email</string>
+</resources>

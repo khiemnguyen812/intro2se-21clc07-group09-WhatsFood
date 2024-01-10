@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Seller.SellerOrderDetailsActivity"
+    android:background="@color/background_color">
+
+    <include
+        android:id="@+id/header_bar"
+        layout="@layout/header_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:id="@+id/order_id_text_view_seller_order_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_bar"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="#Order ID"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address_text_view_seller_order_details"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_below="@id/order_id_text_view_seller_order_details"
+        android:layout_marginTop="10dp"
+        android:text="Address: Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:id="@+id/food_list_seller_order_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/address_text_view_seller_order_details"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="25dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="20sp"
+        android:scrollbars="none"
+        android:layout_above="@id/button_linear_layout_seller_order_details"
+        />
+
+    <LinearLayout
+        android:id="@+id/button_linear_layout_seller_order_details"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:divider="@drawable/horizontal_divider"
+        android:orientation="horizontal"
+        android:showDividers="middle|beginning|end"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/approve_button"
+            style="@style/button_green"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Approve" />
+
+        <Button
+            android:id="@+id/deny_button"
+            style="@style/button_red"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Deny" />
+    </LinearLayout>
+
+</RelativeLayout>

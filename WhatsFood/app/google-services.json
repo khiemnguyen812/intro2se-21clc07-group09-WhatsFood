@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "679441470537",
+    "firebase_url": "https://whatsfood-13e7e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "whatsfood-13e7e",
+    "storage_bucket": "whatsfood-13e7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679441470537:android:6f0a331723f97904071b98",
+        "android_client_info": {
+          "package_name": "com.example.whatsfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679441470537-dqu7ucsb61n70uak4b3ttlsnib3of4h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKK27tjiNiD8QHiPP08bUW20Y1FpvHRgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679441470537-dqu7ucsb61n70uak4b3ttlsnib3of4h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

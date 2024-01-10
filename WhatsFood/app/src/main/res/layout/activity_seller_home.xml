@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Seller.SellerHomeActivity"
+    android:background="@color/background_color">
+
+    <TextView
+        android:layout_width="208dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:text="Order List"
+        android:textColor="@color/red"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:id="@+id/order_list_logo"/>
+
+    <ListView
+        android:id="@+id/order_list_view_seller_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_list_logo"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:cacheColorHint="#00000000"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:scrollingCache="false"
+        android:smoothScrollbar="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollbars="none"
+        android:paddingHorizontal="20dp"
+        />
+</RelativeLayout>
